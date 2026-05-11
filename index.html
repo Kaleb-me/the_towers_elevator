@@ -930,7 +930,7 @@
 
     dot.className = 'status-dot ' + (isOnline ? 'online' : 'offline');
     text.className = 'status-text ' + (isOnline ? 'online' : 'offline');
-    text.textContent = isOnline ? 'ONLINE' : 'OFFLINE';
+    text.textContent = isOnline ? 'Finally Working' : 'Not Working';
     card.style.setProperty('--status-color', isOnline ? 'var(--green)' : 'var(--red)');
     since.textContent = `Last report: ${fmtDate(sinceDate)} — ${timeAgo(sinceDate)}`;
   }
